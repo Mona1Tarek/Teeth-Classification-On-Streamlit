@@ -1,9 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# Teeth Classification APP
 
-Description of the app ...
+This APP focus on classifying a dental image into one of 7 distinct categories.
 
 ## Demo App
 
@@ -23,3 +20,4 @@ This is filler text, please replace this with a explanatory text about further r
 - Resource 1
 - Resource 2
 - Resource 3
+
