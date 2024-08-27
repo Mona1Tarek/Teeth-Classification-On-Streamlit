@@ -16,8 +16,14 @@ st.info('This app builds an image classification model')
 
 st.write("Upload an image of teeth to classify them.")
 
-# Load your pre-trained model
-model = load_model('models/teeth_classification_model.keras')
+# Load model architecture from JSON
+with open('models/teeth_classification_model.json', 'r') as json_file:
+    model_json = json_file.read()
+
+model = model_from_json(model_json, custom_objects={'CustomLayer': CustomLayer})
+
+# Load weights into the new model
+model.load_weights('models/teeth_classification_weights.h5')
 
 # Function to preprocess the image for the model
 def preprocess_image(image):
