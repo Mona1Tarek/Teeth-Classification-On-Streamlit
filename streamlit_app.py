@@ -16,7 +16,6 @@ st.info('This app builds an image classification model')
 
 st.write("Upload an image of teeth to classify them.")
 
-model = load_model('models/teeth_classification_model.h5', custom_objects={'CustomLayer': CustomLayer})
 
 
 
