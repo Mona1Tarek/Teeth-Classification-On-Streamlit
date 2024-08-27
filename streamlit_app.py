@@ -14,7 +14,7 @@ st.title('Teeth Classification')
 st.write('This app builds an image classification model')
 
 
-st.info("Upload an image of teeth to classify them:")
+st.info("Upload an image of teeth to classify them")
 
 
 
