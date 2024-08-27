@@ -11,10 +11,10 @@ from tensorflow.keras import layers, models
 
 st.title('Teeth Classification')
 
-st.info('This app builds an image classification model')
+st.write('This app builds an image classification model')
 
 
-st.write("Upload an image of teeth to classify them.")
+st.info("Upload an image of teeth to classify them:")
 
 
 
