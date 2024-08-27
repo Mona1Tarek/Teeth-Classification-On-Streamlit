@@ -19,8 +19,6 @@ st.write("Upload an image of teeth to classify them.")
 model = load_model('models/teeth_classification_model.h5', custom_objects={'CustomLayer': CustomLayer})
 
 
-# Load weights into the new model
-model.load_weights('models/teeth_classification_weights.h5')
 
 # Function to preprocess the image for the model
 def preprocess_image(image):
