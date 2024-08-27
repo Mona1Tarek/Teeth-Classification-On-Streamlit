@@ -4,7 +4,7 @@ This APP focus on classifying a dental image into one of 7 distinct categories.
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://teeth-classification.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/Mona1Tarek/Teeth-Classification/blob/main/Assignment1.ipynb)
 
 ## GitHub Codespaces
 
