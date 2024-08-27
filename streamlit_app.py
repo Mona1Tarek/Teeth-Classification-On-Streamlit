@@ -17,8 +17,6 @@ st.info('This app builds an image classification model')
 st.write("Upload an image of teeth to classify them.")
 
 
-model = load_model('models/teeth_classification_model.keras')
-
 
 
 # Function to preprocess the image for the model
